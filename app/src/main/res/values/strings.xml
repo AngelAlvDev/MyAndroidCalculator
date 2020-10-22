@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Calculator</string>
+    <string name="c_button">C</string>
+    <string name="zero_button">0</string>
+    <string name="double0_button">00</string>
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="four_button">4</string>
+
 </resources>
