@@ -131,7 +131,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         four_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -256,7 +255,6 @@ public class MainActivity extends AppCompatActivity {
                         mainResultTextView.setText("NAN");
                     }
                 }
-
                 operator = "+";
                 resumeOperationTextView.setText(mainResultTextView.getText().toString() + " " + operator);
                 mainResultTextView.setText(zero_button.getText().toString());
@@ -311,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 operand1 = Double.parseDouble(mainResultTextView.getText().toString());
 
-                    mainResultTextView.setText(String.valueOf(operand1/100));
+                mainResultTextView.setText(String.valueOf(operand1/100));
 
             }
         });
